@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    /* Couleur de fond de secours */
+    background-image: url('images/fond_noel_hd.jpg');
+    /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    /* Pour couvrir tout l'écran */
+    background-position: center;
+    /* Pour centrer l'image */
+    background-repeat: no-repeat;
+    /* Empêche la répétition de l'image */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    /* Supprime le padding par défaut */
+    min-height: 100vh;
+    /* Assure que le body prend au moins toute la hauteur de la fenêtre */
+    font-family: 'Lobster', cursive; /* Utilise la police Lobster pour le texte principal */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #dcb253;
+    /* Vous pouvez garder cette couleur ou la remplacer par une couleur transparente */
+    background-size: cover;
+    /* Pour couvrir tout l'élément */
+    background-position: center;
+    /* Pour centrer l'image */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    /* Permet à la container de prendre tout l'espace disponible */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.gift-list {
+    list-style-type: none;
+    /* Supprime les puces de la liste */
+    padding: 0;
+    /* Supprime le padding par défaut */
+}
+
+.gift-list li {
+    display: flex;
+    /* Utilise flexbox pour aligner les éléments */
+    align-items: center;
+    /* Centre verticalement les éléments */
+    margin: 10px 0;
+    /* Ajoute un espace entre les éléments de la liste */
+    text-align: left;
+    /* Aligne le texte à gauche */
+    background: #e0f7fa;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 1.2em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gift-list li img {
+    margin-right: 15px;
+    /* Ajoute un espace entre l'image et le texte */
+    max-width: 100px;
+    /* Limite la largeur de l'image */
+    height: auto;
+    /* Garde les proportions de l'image */
+}
+
+.gift-list li a {
+    display: flex;
+    /* Utilise flexbox pour aligner l'image et le texte */
+    align-items: center;
+    /* Centre verticalement l'image et le texte */
+    text-decoration: none;
+    /* Supprime le soulignement du lien */
+    color: inherit;
+    /* Hérite de la couleur du texte */
+}
+
+.gift-list li:hover {
+    background: #b2ebf2;
+    transform: translateY(-2px);
+}
+
+a {
+    color: #388e3c; /* Vert pour les liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+a:hover {
+    color: #ffd700; /* Or pour les liens au survol */
+    text-decoration: underline; /* Souligne les liens au survol */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ffd700; /* Couleur dorée pour le texte */
+    text-align: center; /* Centre le texte par défaut */
+    padding: 10px; /* Ajoute un peu d'espace autour du texte */
+    background-color: rgba(211, 47, 47, 0.8); /* Couleur rouge avec transparence (0.8) */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.footer-content {
+    display: flex; /* Utilise flexbox pour aligner les éléments */
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+    max-width: 800px; /* Limite la largeur du footer */
+    margin: auto; /* Centre le footer horizontalement */
+}
+
+.footer-name {
+    color: #ffd700; /* Couleur dorée pour l'année */
+    text-align: left; /* Aligne le texte à gauche */
+}
+
+.footer-year {
+    color: #ffd700; /* Couleur dorée pour le nom */
+    text-align: right; /* Aligne le texte à droite */
+}
+
+/* Ajout de classes pour les couleurs de Noël */
+.red-background {
+    background-color: #ffcccc;
+    /* Rouge clair */
+}
+
+.green-background {
+    background-color: #ccffcc;
+    /* Vert clair */
+}
+
+.gold-background {
+    background-color: #ffd700;
+    /* Or */
+}
+
+.silver-background {
+    background-color: #c0c0c0;
+    /* Argent */
+}
